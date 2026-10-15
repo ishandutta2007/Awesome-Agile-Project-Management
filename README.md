@@ -28,7 +28,7 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
-- [SaaS/Hosted Platforms](#saas-products)
+- [SaaS/Hosted Platforms](#saashosted-platforms)
 
 - [Open-Source GitHub Projects](#open-source-github-projects)
 
@@ -40,63 +40,18 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
-- **[Jira Software](https://www.atlassian.com/software/jira)**  
-
-  Industry-standard agile project management and issue tracking platform from Atlassian with deep Scrum/Kanban support, workflows, and extensive ecosystem integrations.
-
-
-
-- **[Linear](https://linear.app/)**  
-
-  Modern, fast issue tracking and project management tool designed for high-performance software teams with streamlined UI and strong keyboard-driven workflows.
-
-
-
-- **[Azure DevOps](https://azure.microsoft.com/en-us/products/devops)**  
-
-  Microsoft’s integrated suite for agile planning, work item tracking, pipelines, repos, and test management tightly coupled with the Microsoft ecosystem.
-
-
-
-- **[Shortcut](https://www.shortcut.com/)**  
-
-  Agile project management platform (formerly Clubhouse) focused on software teams with stories, epics, iterations, and clean collaboration features.
-
-
-
-- **[Monday Dev](https://monday.com/dev)**  
-
-  Developer-focused offering from monday.com tailored for software delivery, sprints, and engineering workflows on top of the monday.com platform.
-
-
-
-- **[ClickUp](https://clickup.com/)**  
-
-  All-in-one productivity and project management platform with flexible views (list, board, Gantt, etc.) widely used for agile and hybrid team workflows.
-
-
-
-- **[Asana](https://asana.com/)**  
-
-  Work management platform supporting tasks, projects, timelines, and portfolios; frequently used for agile and cross-functional team coordination.
-
-
-
-- **[Targetprocess](https://www.targetprocess.com/)**  
-
-  Visual agile project management tool designed for scaling Scrum, Kanban, and SAFe-style practices with highly customizable boards and hierarchies.
-
-
-
-- **[Rally (Broadcom)](https://www.broadcom.com/products/software/agile-development/rally)**  
-
-  Enterprise agile platform (formerly CA Agile Central / Rally) focused on portfolio and program-level agile planning and tracking.
-
-
-
-- **[VersionOne](https://www.collab.net/products/versionone)**  
-
-  Enterprise agile management suite supporting Scrum, Kanban, and scaled agile practices across teams and programs.
+| Platform | Company Size (Market Cap / Valuation / Revenue) | Starting Price | Free Tier / Trial Limits | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Azure DevOps](https://azure.microsoft.com/en-us/products/devops)** | ~$3.1T Market Cap (Microsoft) | $6/user/month (Basic Plan) | Free forever for up to 5 users (includes Azure Boards, unlimited private Git repos, and 1 free parallel CI/CD job with 1,800 build mins/month) | Microsoft’s integrated suite for agile planning, work item tracking, pipelines, repos, and test management tightly coupled with the Microsoft ecosystem. |
+| **[Rally](https://www.broadcom.com/products/software/agile-development/rally)** | ~$800B+ Market Cap (Broadcom) | ~$15–$35/user/month (Enterprise quote-based) | Free forever for up to 50 users (via Rally Starter Edition with SAFe portfolio & program planning support) or 90-day enterprise evaluation POC | Enterprise agile platform (formerly CA Agile Central / Rally) focused on portfolio and program-level agile planning and tracking. |
+| **[Targetprocess](https://www.targetprocess.com/)** | ~$200B+ Market Cap (IBM Apptio) | ~£12–£32 (~$15–$40)/user/month (Min 10 users, annual contract) | Custom sales-assisted free trial / sandbox proof-of-concept (typically 14–30 days upon request, no instant self-serve free plan) | Visual agile project management tool designed for scaling Scrum, Kanban, and SAFe-style practices with highly customizable boards and hierarchies. |
+| **[Jira Software](https://www.atlassian.com/software/jira)** | ~$45B+ Market Cap (Atlassian) | $7.16/user/month (Standard, billed annually) or $8.15/user/month (billed monthly) | Free forever for up to 10 users with 2 GB storage, Scrum/Kanban boards, and standard backlog management | Industry-standard agile project management and issue tracking platform from Atlassian with deep Scrum/Kanban support, workflows, and extensive ecosystem integrations. |
+| **[Monday Dev](https://monday.com/dev)** | ~$12B+ Market Cap (monday.com) | $12/seat/month (Standard Dev, billed annually; min 3 seats) | Free forever for up to 2 seats (up to 3 boards, 200+ templates, 500 MB storage; or 14-day Pro trial with all features) | Developer-focused offering from monday.com tailored for software delivery, sprints, and engineering workflows on top of the monday.com platform. |
+| **[Asana](https://asana.com/)** | ~$3B+ Market Cap (Asana, Inc.) | $10.99/user/month (Starter, billed annually) or $13.49/user/month (billed monthly) | Free forever (Personal plan) for up to 10 teammates with unlimited tasks, projects, messages, and 100MB file attachments | Work management platform supporting tasks, projects, timelines, and portfolios; frequently used for agile and cross-functional team coordination. |
+| **[Linear](https://linear.app/)** | $2.5B Valuation (~$100M+ ARR) | $8/user/month (Standard, billed annually) or $10/user/month (billed monthly) | Free forever for unlimited members with a cap of 250 active issues and 10MB file upload limit | Modern, fast issue tracking and project management tool designed for high-performance software teams with streamlined UI and strong keyboard-driven workflows. |
+| **[ClickUp](https://clickup.com/)** | ~$4B Valuation (~$150M+ ARR) | $7/user/month (Unlimited, billed annually) or $10/user/month (billed monthly) | Free forever for unlimited members with 100MB storage, 100 uses of custom fields, and 100 uses of Gantt charts | All-in-one productivity and project management platform with flexible views (list, board, Gantt, etc.) widely used for agile and hybrid team workflows. |
+| **[VersionOne](https://www.collab.net/products/versionone)** | ~$150M–$250M ARR (Digital.ai / TPG) | ~$29/user/month (Base Enterprise edition quote-based) | Quote-based enterprise evaluation sandbox / guided PoC only (no self-serve free forever plan) | Enterprise agile management suite (now Digital.ai Agility) supporting Scrum, Kanban, and scaled agile practices across teams and programs. |
+| **[Shortcut](https://www.shortcut.com/)** | ~$100M Valuation (~$21M ARR) | $8.50/user/month (Team, billed annually) or $10/user/month (billed monthly) | Free forever for up to 5 users with full core features, unlimited docs, and integrations (or 14-day free trial on Team/Business tiers) | Agile project management platform (formerly Clubhouse) focused on software teams with stories, epics, iterations, and clean collaboration features. |
 
 
 
