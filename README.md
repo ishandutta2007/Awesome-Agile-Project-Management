@@ -1,46 +1,54 @@
-# Awesome-Agile-Project-Management
+# ⚡ Awesome Agile Project Management
 
-## Top Agile Project Management Platforms Ecosystem
+<p align="center">
+  <img src="./assets/banner.svg" alt="Awesome Agile Project Management Banner" width="100%">
+</p>
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Agile-Project-Management/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Agile-Project-Management?style=social&color=white" alt="Repo Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Agile-Project-Management/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Agile-Project-Management?style=social&color=white" alt="Repo Forks"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Agile-Project-Management/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Agile-Project-Management?style=flat-square&color=blue" alt="Issues"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Agile-Project-Management/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-CC0--1.0-green.svg?style=flat-square" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-*Focused on Scrum, Kanban, Issue Tracking, Sprint Planning & Cross-Functional Team Collaboration*
+---
 
-**Last updated: October 2026**
+## 🎯 Overview & Scope
 
+A curated directory and comparison guide of the world's top **Agile Project Management platforms**, **Scrum & Kanban tools**, **issue trackers**, and **open-source self-hostable alternatives**. 
 
+Whether your engineering team practices pure **Scrum**, **Kanban**, **Scrumban**, or enterprise-scaled frameworks like **SAFe®**, this guide provides verifiable data on pricing models, free-tier limits, company scale, and GitHub open-source community engagement.
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Agile Project Management**. These tools support backlog management, sprint planning, Kanban boards, issue tracking, roadmaps, and collaboration for software and product teams practicing Scrum, Kanban, or hybrid agile methods.
+*Last updated: October 2026*
 
+---
 
+## 📑 Table of Contents
 
-**Examples** include Jira Software, Linear, Azure DevOps, Shortcut, Monday Dev, ClickUp, Asana, Targetprocess, Rally (Broadcom), and VersionOne (the category leaders).
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS/Hosted Platforms](#️-saashosted-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+- [📈 Star History](#-star-history)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support](#-support)
+- [📜 Disclaimer](#-disclaimer)
 
+---
 
+## 📊 Sector Overview & Market Dynamics
 
-**Open-source emphasis**: Strong self-hostable options exist. **Taiga**, **OpenProject**, **Plane**, **WeKan**, **Kanboard**, **Leantime**, and related projects provide capable agile workflows without proprietary lock-in. This section is heavily expanded.
+The global **Agile Project Management Software** market is valued at approximately **$6.1B – $6.8B in 2026** (part of the broader $11B+ project management software ecosystem) and is expanding at an estimated **CAGR of 13% – 14.1%**, projected to exceed **$17B+ by the early 2030s**.
 
+The sector exhibits **moderate fragmentation with an oligopolistic tier at the top**: enterprise and cross-tool infrastructure remain concentrated among entrenched mega-caps (Microsoft Azure DevOps, Atlassian Jira, Broadcom Rally), while modern developer-experience platforms (Linear, ClickUp, Monday Dev) and community-driven, privacy-centric open-source engines (Plane, Focalboard, Planka, Taiga) actively capture substantial market share, preventing a single winner-take-all monopoly.
 
+---
 
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
+## ☁️ SaaS/Hosted Platforms
 
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saashosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-| Platform | Company Size (Market Cap / Valuation / Revenue) | Starting Price | Free Tier / Trial Limits | Description |
+| 🏢 Platform | 💰 Company Size (Market Cap / Valuation / ARR) | 🏷️ Starting Price | 🎁 Free Tier / Trial Limits | 📝 Description |
 | :--- | :--- | :--- | :--- | :--- |
 | **[Azure DevOps](https://azure.microsoft.com/en-us/products/devops)** | ~$3.1T Market Cap (Microsoft) | $6/user/month (Basic Plan) | Free forever for up to 5 users (includes Azure Boards, unlimited private Git repos, and 1 free parallel CI/CD job with 1,800 build mins/month) | Microsoft’s integrated suite for agile planning, work item tracking, pipelines, repos, and test management tightly coupled with the Microsoft ecosystem. |
 | **[Rally](https://www.broadcom.com/products/software/agile-development/rally)** | ~$800B+ Market Cap (Broadcom) | ~$15–$35/user/month (Enterprise quote-based) | Free forever for up to 50 users (via Rally Starter Edition with SAFe portfolio & program planning support) or 90-day enterprise evaluation POC | Enterprise agile platform (formerly CA Agile Central / Rally) focused on portfolio and program-level agile planning and tracking. |
@@ -53,114 +61,95 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 | **[VersionOne](https://www.collab.net/products/versionone)** | ~$150M–$250M ARR (Digital.ai / TPG) | ~$29/user/month (Base Enterprise edition quote-based) | Quote-based enterprise evaluation sandbox / guided PoC only (no self-serve free forever plan) | Enterprise agile management suite (now Digital.ai Agility) supporting Scrum, Kanban, and scaled agile practices across teams and programs. |
 | **[Shortcut](https://www.shortcut.com/)** | ~$100M Valuation (~$21M ARR) | $8.50/user/month (Team, billed annually) or $10/user/month (billed monthly) | Free forever for up to 5 users with full core features, unlimited docs, and integrations (or 14-day free trial on Team/Business tiers) | Agile project management platform (formerly Clubhouse) focused on software teams with stories, epics, iterations, and clean collaboration features. |
 
+---
 
+## 🔓 Open-Source GitHub Projects
 
-## Open-Source GitHub Projects
+Curated self-hostable agile engines and task management tools, **sorted by GitHub stargazers (descending)**:
 
-- **[Taiga](https://github.com/taigaio/taiga-front)**  
+1. **[Plane](https://github.com/makeplane/plane)** [![Stars](https://img.shields.io/github/stars/makeplane/plane?style=social&color=white)](https://github.com/makeplane/plane/stargazers)  
+   Modern open-source software development tool and issue tracker built as an extensible, privacy-friendly alternative to Jira and Linear with cycles, modules, pages, and time tracking.
 
-  Open-source agile project management tool for cross-functional teams — supports Scrum and Kanban, user stories, sprints, epics, and a clean, modern interface. Backend and related repos available under the same organization.
+2. **[Focalboard](https://github.com/mattermost/focalboard)** [![Stars](https://img.shields.io/github/stars/mattermost/focalboard?style=social&color=white)](https://github.com/mattermost/focalboard/stargazers)  
+   Open-source, multilingual project management suite from Mattermost providing Kanban boards, tables, galleries, and calendar views for agile teams.
 
+3. **[Super Productivity](https://github.com/super-productivity/super-productivity)** [![Stars](https://img.shields.io/github/stars/super-productivity/super-productivity?style=social&color=white)](https://github.com/super-productivity/super-productivity/stargazers)  
+   Advanced open-source agile ToDo list and time tracking tool designed for engineers, integrating directly with Jira, GitHub, and GitLab.
 
+4. **[WeKan](https://github.com/wekan/wekan)** [![Stars](https://img.shields.io/github/stars/wekan/wekan?style=social&color=white)](https://github.com/wekan/wekan/stargazers)  
+   Open-source Kanban board application modeled after Trello, supporting self-hosting, subtasks, swimlanes, custom fields, and role-based permissions.
 
-- **[OpenProject](https://github.com/opf/openproject)**  
+5. **[OpenProject](https://github.com/opf/openproject)** [![Stars](https://img.shields.io/github/stars/opf/openproject?style=social&color=white)](https://github.com/opf/openproject/stargazers)  
+   Enterprise-ready open-source management software featuring agile boards, work packages, interactive Gantt charts, roadmaps, and enterprise security.
 
-  Comprehensive open-source project management software with agile boards, work packages, Gantt charts, roadmaps, and strong self-hosting support.
+6. **[Planka](https://github.com/plankanban/planka)** [![Stars](https://img.shields.io/github/stars/plankanban/planka?style=social&color=white)](https://github.com/plankanban/planka/stargazers)  
+   Real-time collaborative Kanban board built with React and Redux, featuring custom backgrounds, user story assignments, and attachment management.
 
+7. **[Leantime](https://github.com/Leantime/leantime)** [![Stars](https://img.shields.io/github/stars/Leantime/leantime?style=social&color=white)](https://github.com/Leantime/leantime/stargazers)  
+   Open-source project management platform tailored for startup and product innovation teams, combining lean canvases, milestones, and Scrum boards.
 
+8. **[Kanboard](https://github.com/kanboard/kanboard)** [![Stars](https://img.shields.io/github/stars/kanboard/kanboard?style=social&color=white)](https://github.com/kanboard/kanboard/stargazers)  
+   Minimalist, lightning-fast Kanban software focused on simplicity, WIP (Work-in-Progress) limits, automated actions, and lightweight PHP deployment.
 
-- **[Plane](https://github.com/makeplane/plane)**  
+9. **[Taskbook](https://github.com/klaussinani/taskbook)** [![Stars](https://img.shields.io/github/stars/klaussinani/taskbook?style=social&color=white)](https://github.com/klaussinani/taskbook/stargazers)  
+   Terminal-first task and board manager for developers who prefer command-line agile workflows, boards, priorities, and scratchpad notes.
 
-  Modern open-source project management and issue tracking tool designed as a lightweight alternative to Jira/Linear with cycles, modules, and clean UX.
+10. **[Ever Gauzy](https://github.com/ever-co/ever-gauzy)** [![Stars](https://img.shields.io/github/stars/ever-co/ever-gauzy?style=social&color=white)](https://github.com/ever-co/ever-gauzy/stargazers)  
+    Open-source business management, agile project tracking, time tracking, and ERP platform suited for agencies and cross-functional teams.
 
+11. **[Redmine](https://github.com/redmine/redmine)** [![Stars](https://img.shields.io/github/stars/redmine/redmine?style=social&color=white)](https://github.com/redmine/redmine/stargazers)  
+    Battle-tested open-source issue tracking and project management framework written in Ruby on Rails, featuring custom fields, role-based access, and Gantt charts.
 
+12. **[Vikunja](https://github.com/go-vikunja/vikunja)** [![Stars](https://img.shields.io/github/stars/go-vikunja/vikunja?style=social&color=white)](https://github.com/go-vikunja/vikunja/stargazers)  
+    Modern self-hostable to-do and project management application built with Go and Vue, supporting Kanban views, subtasks, deadlines, and relation graphs.
 
-- **[WeKan](https://github.com/wekan/wekan)**  
+13. **[Taiga](https://github.com/taigaio/taiga-front)** [![Stars](https://img.shields.io/github/stars/taigaio/taiga-front?style=social&color=white)](https://github.com/taigaio/taiga-front/stargazers)  
+    Celebrated open-source agile project management platform for Scrum and Kanban enthusiasts, featuring user story estimation, sprint burndown charts, and epics.
 
-  Open-source Kanban board application inspired by Trello, fully self-hostable and focused on visual task management.
-
-
-
-- **[Kanboard](https://github.com/kanboard/kanboard)**  
-
-  Minimalist open-source Kanban project management software with a simple interface and strong plugin ecosystem.
-
-
-
-- **[Leantime](https://github.com/Leantime/leantime)**  
-
-  Open-source project management system aimed at startups and non-traditional teams, combining goals, tasks, and agile elements.
-
-
-
-- **[Focalboard](https://github.com/mattermost/focalboard)**  
-
-  Open-source project and issue tracking tool (from Mattermost) offering Kanban, table, and gallery views; can run standalone or integrated.
-
-
-
-- **[Redmine](https://github.com/redmine/redmine)**  
-
-  Long-standing open-source project management web application with issue tracking, Gantt charts, calendars, and flexible workflows.
-
-
-
-- **[Wekan + related Kanban tools](https://github.com/wekan/wekan)**  
-
-  Community forks and extensions around pure Kanban-style open boards for lightweight agile tracking.
-
-
-
-- **[Documentation and self-hosting guides](https://taiga.io/)**  
-
-  Official docs and community resources for deploying Taiga, OpenProject, Plane, and other open agile platforms in production.
-
-
-
-### Additional Strong Open-Source Options
-
-- Using **Taiga** or **Plane** as primary open alternatives for Scrum/Kanban teams.
-
-- Deploying **OpenProject** for organizations needing broader PM features (Gantt, portfolios, time tracking).
-
-- Choosing **WeKan** or **Kanboard** for pure, lightweight Kanban boards.
-
-- Combining open project tools with GitLab/GitHub Issues or self-hosted Git for a complete delivery pipeline.
-
-- Accepting that commercial platforms (Jira, Linear, Azure DevOps, Shortcut, etc.) still dominate enterprise adoption, advanced reporting, marketplace apps, and large-scale SAFe implementations.
-
-
-
-**Frameworks for building custom systems**: Self-host **Taiga**, **OpenProject**, or **Plane** → integrate with Git providers and CI/CD → add reporting via open BI tools if needed. Suitable for teams that value data ownership and customization. Many larger organizations still standardize on Jira or Azure DevOps for ecosystem depth and vendor support.
-
-
-
-## How to Contribute
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Agile tool choice depends on team size, methodology (Scrum/Kanban/SAFe), integration needs, and compliance requirements. Self-hosted solutions require proper security, backup, and maintenance. This list is not process or architecture advice.
-
-
+14. **[Nextcloud Deck](https://github.com/nextcloud/deck)** [![Stars](https://img.shields.io/github/stars/nextcloud/deck?style=social&color=white)](https://github.com/nextcloud/deck/stargazers)  
+    Kanban-style task and project tracking app integrated directly into Nextcloud for sovereign, self-hosted team collaboration.
 
 ---
 
-**Made for agile coaches, engineering managers, and open-source project teams.**
+## 📈 Star History
 
-Let's keep project management flexible, transparent, and as open as practical.
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Agile-Project-Management&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Agile-Project-Management&type=date&legend=top-left)
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are warmly welcomed! To suggest a new tool or update an existing one:
+
+1. 🍴 Fork the repository.
+2. 🌿 Create a branch for your update (`git checkout -b feature/add-agile-tool`).
+3. 📝 Add or edit entries in [`README.md`](README.md):
+   - Keep SaaS entries with verifiable starting prices and free tier constraints.
+   - For open-source tools, include the repository URL, description, and stargazer badge.
+4. 🚀 Submit a Pull Request with a clear description of changes.
+
+---
+
+## 💖 Support
+
+Thank you so much for exploring this ecosystem guide! 🌟  
+
+If you find this repository valuable:
+- ⭐ **Star this repository** to help others discover it.
+- 🍴 **Fork it** to customize it for your organization.
+- 📢 **Share it** with fellow engineering managers, agile coaches, and developers.
+- ☕ **Buy a coffee & sponsor ongoing maintenance:** [Sponsor Dashboard on GitHub](https://github.com/sponsors/ishandutta2007)
+
+---
+
+## 📜 Disclaimer
+
+- This list is community-curated for informational and architectural comparison purposes.
+- Mentions do not constitute official endorsements or commercial sponsorships.
+- Always review security, data governance, and SLA requirements before deploying production self-hosted or SaaS agile systems.
+
+---
+
+<p align="center">
+  <b>Made with ❤️ for agile coaches, engineering managers, and open-source project teams worldwide.</b>
+</p>

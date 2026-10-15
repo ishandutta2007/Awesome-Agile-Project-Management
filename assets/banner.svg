@@ -1,0 +1,191 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#050811"/>
+    </linearGradient>
+
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+
+    <linearGradient id="cardGrad1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.6"/>
+    </linearGradient>
+
+    <linearGradient id="pulseCyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0.05"/>
+    </linearGradient>
+
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#334155" stroke-width="0.75" stroke-opacity="0.3"/>
+    </pattern>
+
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <style>
+      .title-text {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 800;
+        font-size: 44px;
+        fill: #f8fafc;
+        letter-spacing: -0.5px;
+      }
+      .gradient-title {
+        fill: url(#primaryGrad);
+        filter: drop-shadow(0px 2px 10px rgba(129, 140, 248, 0.35));
+      }
+      .subtitle-text {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 400;
+        font-size: 17px;
+        fill: #94a3b8;
+      }
+      .pill-text {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 600;
+        font-size: 13px;
+        fill: #e2e8f0;
+      }
+
+      /* Animated background elements */
+      @keyframes floatCard1 {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(-12px) rotate(1deg); }
+      }
+      @keyframes floatCard2 {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(-8px) rotate(-1.5deg); }
+      }
+      @keyframes pulseCircle {
+        0%, 100% { transform: scale(1); opacity: 0.25; }
+        50% { transform: scale(1.15); opacity: 0.45; }
+      }
+      @keyframes waveFlow {
+        0% { stroke-dashoffset: 0; }
+        100% { stroke-dashoffset: -200; }
+      }
+      @keyframes beamMove {
+        0% { transform: translateX(0); opacity: 0.2; }
+        50% { opacity: 0.8; }
+        100% { transform: translateX(500px); opacity: 0.2; }
+      }
+
+      .floating-bg-1 {
+        animation: floatCard1 7s ease-in-out infinite;
+      }
+      .floating-bg-2 {
+        animation: floatCard2 9s ease-in-out infinite 1s;
+      }
+      .pulse-glow {
+        transform-origin: center;
+        animation: pulseCircle 6s ease-in-out infinite;
+      }
+      .flow-path {
+        stroke-dasharray: 8 6;
+        animation: waveFlow 12s linear infinite;
+      }
+      .beam-line {
+        animation: beamMove 8s ease-in-out infinite;
+      }
+    </style>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="360" rx="16" fill="url(#bgGrad)"/>
+  <rect width="1200" height="360" rx="16" fill="url(#grid)"/>
+
+  <!-- Dynamic / Animated Background Layers (stays strictly behind foreground text) -->
+  <g opacity="0.8">
+    <!-- Ambient glowing orbs -->
+    <circle cx="150" cy="80" r="140" fill="#38bdf8" class="pulse-glow" filter="url(#glow)"/>
+    <circle cx="1050" cy="280" r="160" fill="#818cf8" class="pulse-glow" filter="url(#glow)"/>
+    <circle cx="950" cy="70" r="90" fill="#c084fc" opacity="0.2" filter="url(#glow)"/>
+
+    <!-- Subtle animated sprint flow lines -->
+    <path d="M 50 310 C 300 240, 500 350, 800 280 S 1100 250, 1180 300" fill="none" stroke="#6366f1" stroke-width="2" stroke-opacity="0.4" class="flow-path"/>
+    <path d="M 20 280 C 250 200, 600 310, 900 220 S 1080 200, 1180 230" fill="none" stroke="#38bdf8" stroke-width="1.5" stroke-opacity="0.3" class="flow-path"/>
+
+    <!-- Background Decorative Kanban Cards (Right Side, floating gently behind) -->
+    <g class="floating-bg-1">
+      <rect x="940" y="45" width="200" height="110" rx="12" fill="url(#cardGrad1)" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.4"/>
+      <rect x="960" y="65" width="60" height="8" rx="4" fill="#38bdf8" opacity="0.8"/>
+      <rect x="960" y="85" width="140" height="6" rx="3" fill="#64748b" opacity="0.6"/>
+      <rect x="960" y="100" width="100" height="6" rx="3" fill="#64748b" opacity="0.4"/>
+      <circle cx="1110" cy="125" r="10" fill="#818cf8" opacity="0.7"/>
+    </g>
+
+    <g class="floating-bg-2">
+      <rect x="880" y="175" width="220" height="120" rx="12" fill="url(#cardGrad1)" stroke="#818cf8" stroke-width="1" stroke-opacity="0.35"/>
+      <rect x="900" y="195" width="75" height="8" rx="4" fill="#10b981" opacity="0.8"/>
+      <rect x="900" y="215" width="160" height="6" rx="3" fill="#64748b" opacity="0.6"/>
+      <rect x="900" y="230" width="120" height="6" rx="3" fill="#64748b" opacity="0.4"/>
+      <rect x="900" y="255" width="50" height="16" rx="8" fill="#334155" opacity="0.8"/>
+      <circle cx="1065" cy="265" r="10" fill="#38bdf8" opacity="0.7"/>
+    </g>
+  </g>
+
+  <!-- Subtle border around whole banner -->
+  <rect x="1" y="1" width="1198" height="358" rx="15" fill="none" stroke="#475569" stroke-width="1" stroke-opacity="0.4"/>
+
+  <!-- Foreground Content: Header Badge -->
+  <g transform="translate(80, 50)">
+    <rect x="0" y="0" width="170" height="28" rx="14" fill="#1e293b" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.6"/>
+    <circle cx="14" cy="14" r="5" fill="#38bdf8">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="28" y="18" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="12" font-weight="700" fill="#38bdf8" letter-spacing="0.8">AWESOME ECOSYSTEM</text>
+  </g>
+
+  <!-- Foreground Main Title (Guaranteed Crisp & High Contrast) -->
+  <g transform="translate(80, 130)">
+    <text class="title-text">
+      Awesome <tspan class="gradient-title">Agile Project Management</tspan> 🚀
+    </text>
+  </g>
+
+  <!-- Foreground Subtitle / Tagline -->
+  <g transform="translate(80, 175)">
+    <text class="subtitle-text">
+      Curated guide to Scrum, Kanban, Sprints & Issue Tracking: Top Enterprise SaaS &amp; Open-Source Tools.
+    </text>
+    <text class="subtitle-text" y="25" fill="#64748b" font-size="15">
+      Data-backed comparisons, starting tier pricing, free plan limits, and GitHub stargazer metrics.
+    </text>
+  </g>
+
+  <!-- Foreground Dynamic Category Interactive Pills -->
+  <g transform="translate(80, 245)">
+    <!-- Pill 1: Scrum & Sprints -->
+    <g transform="translate(0, 0)">
+      <rect width="165" height="38" rx="19" fill="#1e293b" stroke="#38bdf8" stroke-width="1.2" stroke-opacity="0.6"/>
+      <text x="20" y="24" class="pill-text">⚡ Scrum &amp; Sprints</text>
+    </g>
+
+    <!-- Pill 2: Kanban Boards -->
+    <g transform="translate(180, 0)">
+      <rect width="165" height="38" rx="19" fill="#1e293b" stroke="#818cf8" stroke-width="1.2" stroke-opacity="0.6"/>
+      <text x="20" y="24" class="pill-text">📋 Kanban Boards</text>
+    </g>
+
+    <!-- Pill 3: Enterprise SaaS -->
+    <g transform="translate(360, 0)">
+      <rect width="165" height="38" rx="19" fill="#1e293b" stroke="#c084fc" stroke-width="1.2" stroke-opacity="0.6"/>
+      <text x="20" y="24" class="pill-text">☁️ Enterprise SaaS</text>
+    </g>
+
+    <!-- Pill 4: Open-Source / Self-Hosted -->
+    <g transform="translate(540, 0)">
+      <rect width="195" height="38" rx="19" fill="#1e293b" stroke="#10b981" stroke-width="1.2" stroke-opacity="0.6"/>
+      <text x="20" y="24" class="pill-text">🔓 100% Open-Source</text>
+    </g>
+  </g>
+</svg>
